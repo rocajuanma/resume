@@ -4,7 +4,8 @@
 
 [juanma.roca@icloud.com](mailto:juanma.roca@icloud.com)  
 [www.juanmaroca.com](https://juanmaroca.com)  
-[LinkedIn](https://linkedin.com/in/rocajuanma/) -- [Github](https://github.com/rocajuanma)
+[LinkedIn](https://linkedin.com/in/rocajuanma/) -- [Github](https://github.com/rocajuanma)  
+[Download Resume as PDF](https://github.com/rocajuanma/resume/raw/master/resume-juanmaroca.pdf)
 
 -----
 
