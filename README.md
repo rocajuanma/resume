@@ -2,7 +2,7 @@
 # Juanma Roca
 ## Senior Software Engineer, Backend Systems
 
-[juanma.roca@icloud.com](mailto:juanma.roca@icloud.com)  
+[juanma.rocaa@gmail.com](mailto:juanma.rocaa@gmail.com)  
 [www.juanmaroca.com](https://juanmaroca.com)  
 [LinkedIn](https://linkedin.com/in/rocajuanma/) -- [Github](https://github.com/rocajuanma)  
 [Download Resume as PDF](https://github.com/rocajuanma/resume/raw/master/resume-juanmaroca.pdf)
@@ -64,4 +64,4 @@ Scotiabank
 
 ### Footer {#footer}
 
-Juanma Roca -- [juanma.roca@icloud.com](mailto:juanma.roca@icloud.com) -- [www.juanmaroca.com](https://juanmaroca.com) -- [@rocajuanma](https://www.linkedin.com/in/rocajuanma)
+Juanma Roca -- [juanma.rocaa@gmail.com](mailto:juanma.rocaa@gmail.com) -- [www.juanmaroca.com](https://juanmaroca.com) -- [@rocajuanma](https://www.linkedin.com/in/rocajuanma)
