@@ -262,21 +262,23 @@ body.pdf h1 {
   letter-spacing: 0;
   margin-top: 0;
   font-size: 48px;
-  text-transform: none;
+  text-transform: uppercase;
+  font-weight: normal;
 }
 body.pdf h2 {
   letter-spacing: 0;
   text-transform: uppercase;
+  font-style: italic;
   font-weight: normal;
 }
 body.pdf h3 {
   float: left;
-  width: 20%;
+  width: 16%;
   font-style: normal;
 }
 body.pdf h3+p {
   float: left;
-  width: 80%;
+  width: 78%;
 }
 body.pdf blockquote {
   top: 40px;
@@ -293,11 +295,11 @@ body.pdf ul dl dt {
   margin: 0 0 .75em;
 }
 body.pdf ul dl dd {
-  padding: 0 4em 0 0;
+  padding: 0 2em 0 0;
 }
 body.pdf ol {
   float: left;
-  width: 80%;
+  width: 79%;
   margin: .7em 0 0;
 }
 body.pdf ol li {
@@ -316,6 +318,8 @@ body.pdf dl {
   margin: .7em 0 0;
   page-break-inside: avoid !important;
   display: block;
+  width: 79%;
+  float: left;
 }
 body.pdf dl strong {
   float: right;
@@ -337,7 +341,7 @@ body.pdf dl em {
   content: ".";
 }
 body {
-  font-family: 'Helvetica Neue', 'Helvetica', Arial, serif;
+  font-family: 'Hoefler Text', Times New Roman, Times, serif;
   color: #444;
 }
 h1,
@@ -345,15 +349,7 @@ h2,
 h3,
 h4,
 ul dl dt {
-  font-family: 'Helvetica Neue Light', 'Helvetica', Arial, serif;
-}
-h1:before {
-  content: "+";
-  font-weight: bold;
-  color: orange;
-  margin: -1em 0 0 -0.5em;
-  position: relative;
-  top: -0.4em;
+  font-family: Futura, "Century Gothic", AppleGothic, sans-serif;
 }
 .container {
   margin: 0 auto;
@@ -402,23 +398,25 @@ h1 {
   padding: 0;
   font-size: 36px;
   letter-spacing: -1px;
-  font-weight: bold;
+  font-weight: normal;
 }
 h2 {
   margin: 0;
   padding: 0;
   font-size: 18px;
+  font-style: italic;
   letter-spacing: -1px;
-  font-weight: bold;
+  font-weight: normal;
 }
 h3 {
-  margin: 0;
+  margin: 0px 20px;
   padding: 0 0 .5em;
   font-size: 150%;
-  font-weight: bold;
+  font-style: italic;
+  font-weight: normal;
 }
 h3+p {
-  margin: 0 0 16px;
+  margin: .6em 0 16px;
   padding: 0;
   display: block;
   font-size: 104%;
@@ -453,7 +451,7 @@ ul dl dd {
 ol {
   margin: 0;
   padding: 0 0 .75em;
-  width: 80%;
+  width: 84%;
   display: inline-block;
 }
 ol li {
@@ -470,9 +468,8 @@ ol li:nth-child(1) {
   border-top: none;
 }
 dl {
-  float: left;
-  display: block;
-  width: 75%;
+  display: inline-block;
+  width: 78%;
   margin: 0;
   padding: 0;
 }
@@ -495,32 +492,6 @@ dl em {
   font-size: 110%;
   margin: .15em 0 .5em;
   font-style: bold;
-}
-dl dd li {
-  width: 100%;
-  margin: 0 1em 1em;
-  list-style-type: square;
-}
-dl dt {
-  display: block;
-  clear: both;
-}
-dl dt {
-  border-top: 1px solid #ccc;
-  padding-top: 1em;
-}
-h3 + dl dt:first-child {
-  border: 0;
-  padding-top: 0;
-}
-dl dd p:first-child {
-  font-weight: bold;
-  text-transform: uppercase;
-  font-size: 1.2em;
-}
-ul li dt {
-  border: 0;
-  padding-top: 0;
 }
 #footer {
   display: none;
@@ -571,19 +542,23 @@ ul li dt {
   h1 {
     margin-top: 0;
     font-size: 48px;
-    letter-spacing: -1px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: normal;
   }
   h2 {
     text-transform: uppercase;
-    letter-spacing: 3px;
+    font-style: italic;
+    letter-spacing: 2px;
+    font-weight: normal;
   }
   h3 {
     float: left;
-    width: 20%;
+    width: 16%;
   }
   h3+p {
     float: left;
-    width: 80%;
+    width: 78%;
   }
   ul dl dt {
     font-size: 122%;
@@ -591,11 +566,11 @@ ul li dt {
     margin-bottom: .75em;
   }
   ul dl dd {
-    padding: 0 4em 0 0;
+    padding: 0 2em 0 0;
   }
   ol {
     float: left;
-    width: 80%;
+    width: 79%;
     margin: .6em 0 0;
   }
   ol li {
@@ -609,6 +584,9 @@ ul li dt {
   ol li:nth-child(2),
   ol li:nth-child(3) {
     border-top: none;
+  }
+  dl {
+    margin: .5em 0 0;
   }
   dl strong {
     float: right;
@@ -631,11 +609,11 @@ ul li dt {
 
 <h2>Senior Software Engineer, Backend Systems</h2>
 
-<p><a href="mailto:juanma.roca@icloud.com">juanma.roca@icloud.com</a><br />
+<p><a href="mailto:juanma.rocaa@gmail.com">juanma.rocaa@gmail.com</a><br />
 <a href="https://juanmaroca.com">www.juanmaroca.com</a><br />
 <a href="https://linkedin.com/in/rocajuanma/">LinkedIn</a> &#8212; <a href="https://github.com/rocajuanma">Github</a></p>
 
-<hr />
+<h2><a href="https://github.com/rocajuanma/resume/raw/master/resume-juanmaroca.pdf">Download Resume as PDF</a></h2>
 
 <h3 id="profile">Profile</h3>
 
@@ -694,7 +672,7 @@ ul li dt {
 
 <h3 id="footer">Footer</h3>
 
-<p>Juanma Roca &#8212; <a href="mailto:juanma.roca@icloud.com">juanma.roca@icloud.com</a> &#8212; <a href="https://juanmaroca.com">www.juanmaroca.com</a> &#8212; <a href="https://www.linkedin.com/in/rocajuanma">@rocajuanma</a></p>
+<p>Juanma Roca &#8212; <a href="mailto:juanma.rocaa@gmail.com">juanma.rocaa@gmail.com</a> &#8212; <a href="https://juanmaroca.com">www.juanmaroca.com</a> &#8212; <a href="https://www.linkedin.com/in/rocajuanma">@rocajuanma</a></p>
 
     </div>
 </div>
